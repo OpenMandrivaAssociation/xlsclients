@@ -1,5 +1,5 @@
 Name:		xlsclients
-Version:	1.1.0
+Version:	1.1.1
 Release:	%mkrel 1
 Summary:	List client applications running on a display
 Group:		Development/X11
