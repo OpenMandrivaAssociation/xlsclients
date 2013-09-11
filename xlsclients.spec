@@ -1,13 +1,13 @@
 Name:		xlsclients
-Version:	1.1.2
-Release:	%mkrel 2
+Version:	1.1.3
+Release:	1
 Summary:	List client applications running on a display
 Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:	MIT
 
-BuildRequires: %{_lib}xcb-devel
-BuildRequires: %{_lib}xcb-util-devel
+BuildRequires:	pkgconfig(xcb-util)
+BuildRequires:	pkgconfig(xcb)
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
